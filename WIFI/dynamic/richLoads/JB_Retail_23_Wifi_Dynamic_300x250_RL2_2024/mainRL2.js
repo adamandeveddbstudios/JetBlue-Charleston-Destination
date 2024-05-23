@@ -143,7 +143,7 @@ function setupContent() {
       price[0].style.display = 'none';
       startingAt[0].style.display = 'none';
     } else {
-      h4[0].innerHTML = "Nonstop flights from<br><span class='city'>" + origin_formatted + "</span> <span class='to'>to</span> <span class='city'>" + destination_formatted + "</span>"; // - Populates main headline
+      h4[0].innerHTML = "Nonstop flights from<br><span class='city'>" + origin_formatted + "</span> <span class='to'>to</span> <span class='city'>" + "Charleston" + "</span>"; // - Populates main headline
       
       // dynamic resize
       const myCity = document.getElementsByClassName('city')

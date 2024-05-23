@@ -74,7 +74,7 @@ function setupContent() {
     startingAt[0].style.display = 'none';
 
   } else {
-    h4[0].innerHTML = "Nonstop flights from <br><span id='origin' class='city'>" + origin_longform + "</span> <span class='to'>to</span> <span id='destination' class='city'>" + destination_longform + "</span>";
+    h4[0].innerHTML = "Nonstop flights from <br><span id='origin' class='city'>" + origin_longform + "</span> <span class='to'>to</span> <span id='destination' class='city'>" + "Charleston" + "</span>";
     // h4[0].innerHTML = "Nonstop flights from <br><span id='origin' class='city'>" + "NYC" + "</span> <span class='to'>to</span> <span id='destination' class='city'>" + "Reno" + "</span>";
 
     const myH4 = document.getElementById('h4')

@@ -59,7 +59,7 @@ function setupContent() {
   // origin_longform = 'Providenciales, Turks and Caicos (PLS)'
   // destination_longform = 'Providenciales, Turks and Caicos (PLS)'
 
-  h4[0].innerHTML = "Nonstop flights from <br><span class='city'>" + origin_longform + "</span> <span class='to'>to</span> <span class='city'>" + destination_longform + "</span>";
+  h4[0].innerHTML = "Nonstop flights from <br><span class='city'>" + origin_longform + "</span> <span class='to'>to</span> <span class='city'>" + "Charleston" + "</span>";
 
 
   if (showDefault) {
